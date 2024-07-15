@@ -1,12 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@tailwind variants;
 
 @layer components {
-  /*
-  .btn-primary {
-    @apply text-center border border-primary-700 bg-primary-50 text-primary-700 px-1 py-2 rounded-4 w-full;
-  }
+  .nav-link {
+    @apply text-[#222222] capitalize text-base font-normal;
+    }
+ /*
   .primary-hover{
     @apply transition duration-250 ease-in-out hover:shadow-main;
   }
