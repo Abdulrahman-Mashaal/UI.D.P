@@ -1,0 +1,37 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-4xl font-times;
+  }
+  h2 {
+    @apply text-4xl font-times;
+  }
+  h3 {
+    @apply text-2xl;
+  }
+  h4 {
+    @apply text-xl;
+  }
+  h5 {
+    @apply text-lg;
+  }
+  h6 {
+    @apply text-base;
+  }
+
+  body {
+    @apply text-base;
+  }
+}
+
+@tailwind components;
+@layer components {
+  .nav-link {
+    @apply text-[#222222] capitalize text-base font-normal;
+  }
+}
+@tailwind utilities;
+@tailwind variants;
+@layer components {
+}

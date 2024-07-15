@@ -8,6 +8,7 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
       '@images': fileURLToPath(new URL('./src/assets/images', import.meta.url)),
+      '@styles': fileURLToPath(new URL('./src/assets/scss', import.meta.url)),
     }
   },
   server: {
