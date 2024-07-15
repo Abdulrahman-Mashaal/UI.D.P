@@ -19,7 +19,7 @@ import logo from '@images/logo.svg';
       </div>
       <div class="flex items-center gap-10">
         <router-link to="/link">Login</router-link>
-        <button>applyNow</button>
+        <button class="btn-compact btn-flat rounded-3xl">Apply now</button>
       </div>
   </nav>
 </template>
