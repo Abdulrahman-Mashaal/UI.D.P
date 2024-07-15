@@ -1,13 +1,11 @@
 <script setup>
-import navBtn from '@images/nav-btn.svg';
-import downArrow from '@images/down-arrow.svg';
+import logo from '@images/logo.svg';
 </script>
 <template>
-  <nav class="px-24 flex items-center justify-between h-[72px] border">
+  <nav class="px-24 flex items-center justify-between h-16">
     <div>
       <router-link to="/home" class="flex items-center gap-1">
-        <img :src="navBtn" alt="nav logo" />
-        <span class="text-lg"> Hala_Lab </span>
+        <img :src="logo" alt="nav logo" />
       </router-link>
     </div>
       <div class="flex items-center gap-10">
