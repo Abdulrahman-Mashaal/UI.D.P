@@ -1,7 +1,6 @@
 import { createApp } from 'vue'
 import router from '@/router'
-// Tailwindcss Styles
-import '@/style.css'
+import '@styles/style.scss'
 import App from './App.vue'
 
 const app = createApp(App);

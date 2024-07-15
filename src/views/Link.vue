@@ -2,7 +2,7 @@
 </script>
 <template>
     <div>
-        Link
+        link
     </div>
 </template>
 <style scoped>
