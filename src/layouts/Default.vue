@@ -3,9 +3,9 @@ import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 </script>
 <template>
-    <div>
+    <div class="container flex flex-col min-h-screen">
             <Navbar/>
-            <main>
+            <main class="grow">
                 <RouterView />
             </main>
             <Footer/>

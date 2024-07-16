@@ -48,7 +48,10 @@
 }
 @layer components {
   .nav-link {
-    @apply text-[#222222] capitalize text-base font-normal;
+    @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
+  }
+  .footer-link {
+    @apply text-white-700 text-sm font-light whitespace-nowrap;
   }
   .btn-default {
     @apply py-4 px-12;

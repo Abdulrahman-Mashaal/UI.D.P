@@ -10,7 +10,7 @@ import logo from '@images/logo.svg';
     </div>
       <div class="flex items-center gap-10">
         <button
-          class="nav-link after-obj gap-1 after:content-[url('@images/down-arrow.svg')] transition-after-base hover:after:-rotate-180"
+          class="nav-link after-obj gap-1 after:content-[url('@images/icons/down-arrow.svg')] transition-after-base hover:after:-rotate-180"
         >
           Cards
         </button>
@@ -19,7 +19,7 @@ import logo from '@images/logo.svg';
       </div>
       <div class="flex items-center gap-10">
         <router-link to="/link">Login</router-link>
-        <button class="btn-compact btn-flat rounded-3xl after-obj gap-2 after:content-[url('@images/right-arrow.svg')] transition-after-base hover:after:translate-x-1">Apply now</button>
+        <button class="btn-compact btn-flat rounded-3xl after-obj gap-2 after:content-[url('@images/icons/right-arrow.svg')] transition-after-base hover:after:translate-x-1">Apply now</button>
       </div>
   </nav>
 </template>
