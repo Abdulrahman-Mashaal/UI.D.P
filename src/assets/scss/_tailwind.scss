@@ -83,10 +83,10 @@
     @apply after:transition-all after:duration-300 after:ease-in-out;
   }
   .before-obj {
-    @apply relative inline-flex items-center before:w-5 before:h-5 before:inline-flex before:items-center before:justify-center before:leading-[0] transition-before-base;
+    @apply relative inline-flex items-center before:w-5 before:h-5 before:inline-flex before:items-center before:justify-center before:leading-[0];
   }
   .after-obj {
-    @apply relative inline-flex items-center after:w-5 after:h-5 after:inline-flex after:items-center after:justify-center after:leading-[0] transition-after-base ;
+    @apply relative inline-flex items-center after:w-5 after:h-5 after:inline-flex after:items-center after:justify-center after:leading-[0];
   }
 }
 
