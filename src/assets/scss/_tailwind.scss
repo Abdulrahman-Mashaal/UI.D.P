@@ -75,7 +75,7 @@
     @apply bg-white-700 hover:bg-white-600 text-primary-700 text-sm font-medium transition-base;
   }
   .btn-plain {
-    @apply text-primary-400 hover:text-primary-700 transition-base;
+    @apply text-black-700 hover:text-primary-900 transition-base text-lg;
   }
 }
 @layer utilities {
