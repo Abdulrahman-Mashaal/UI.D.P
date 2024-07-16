@@ -16,7 +16,21 @@ import aboutSupport from '@images/vector/about-support.png'
         <div class="relative">
             <div class="absolute h-56 bg-gradient-to-t from-[#F7F8FAED] to-[#F7F8FA05] w-full bottom-0 left-0 z-50 "></div>
             <div class="grid grid-cols-3 gap-x-11 gap-y-6">
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
+                    <p class="mb-6 text-sm font-medium">
+                        Lorem ipsum, dolor tur fugiat? Cupiditate, ex modi?
+                    </p>
+                    <div class="flex items-center gap-3">
+                        <div class="w-8 h-8 rounded-full">
+                            <img :src="avatar" alt="avatar" class="w-full h-auto">
+                        </div>
+                        <div>
+                            <h5 class="mb-1">Adrian Knoch</h5>
+                            <p class="text-sm text-[#ABACB2]">Lorem ipsum dolor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
@@ -30,7 +44,7 @@ import aboutSupport from '@images/vector/about-support.png'
                         </div>
                     </div>
                 </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
@@ -44,7 +58,7 @@ import aboutSupport from '@images/vector/about-support.png'
                         </div>
                     </div>
                 </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
@@ -58,7 +72,7 @@ import aboutSupport from '@images/vector/about-support.png'
                         </div>
                     </div>
                 </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
@@ -72,7 +86,7 @@ import aboutSupport from '@images/vector/about-support.png'
                         </div>
                     </div>
                 </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
@@ -86,7 +100,7 @@ import aboutSupport from '@images/vector/about-support.png'
                         </div>
                     </div>
                 </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
@@ -100,21 +114,7 @@ import aboutSupport from '@images/vector/about-support.png'
                         </div>
                     </div>
                 </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
-                    <p class="mb-6 text-sm font-medium">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
-                    </p>
-                    <div class="flex items-center gap-3">
-                        <div class="w-8 h-8 rounded-full">
-                            <img :src="avatar" alt="avatar" class="w-full h-auto">
-                        </div>
-                        <div>
-                            <h5 class="mb-1">Adrian Knoch</h5>
-                            <p class="text-sm text-[#ABACB2]">Lorem ipsum dolor</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF]">
+                <div class="p-6 rounded-xl bg-white-700 border border-[#EAEBEF] flex flex-col justify-between">
                     <p class="mb-6 text-sm font-medium">
                         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit, reprehenderit aut officiis aliquam cumque accusamus mollitia aperiam! Explicabo earum numquam pariatur fugiat? Cupiditate, ex modi?
                     </p>
