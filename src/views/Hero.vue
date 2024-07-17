@@ -7,8 +7,8 @@ import identityImg from '@images/vector/identity.png'
             <h1 class="text-white-700 mb-6">Start with your identity</h1>
             <p class="mb-10 text-white-700 text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a consequatur voluptate voluptas officia minima illo dicta</p>
             <div class="flex items-center gap-6">
-                <button class="btn-default btn-reversed-flat rounded-3xl">Free trial</button>
-                <button class="btn-default btn-outlined rounded-3xl">Talk to us</button>
+                <button class="btn btn--lg btn--white">Free trial</button>
+                <button class="btn btn--lg btn--outlined-white">talk to us</button>
             </div>
         </div>
         <div class="max-w-[587px]">

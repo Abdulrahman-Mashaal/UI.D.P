@@ -1,113 +1,89 @@
 :root {
-    --primary: #16707A;
-    --offWhite: #e5e5e5;
-    --white: #ffffff;
-  }
+  --primary: #16707a;
+  --offWhite: #e5e5e5;
+  --white: #ffffff;
+}
 
-  // Global Fonts
+// Global Fonts
 @font-face {
-    font-family: Times;
-    src: url(../fonts/times.ttf);
-    font-weight: 400;
-  }
-  @font-face {
-    font-family: Times;
-    src: url(../fonts/timesbd.ttf);
-    font-weight: 700;
-  }
-  
-  @font-face {
-    font-family: Almarai;
-    src: url(../fonts/Almarai-Regular.ttf);
-    font-weight: 400;
-  }
-  @font-face {
-    font-family: Outfit;
-    src: url(../fonts/Outfit-Regular.ttf);
-    font-weight: 400;
-  }
-  @font-face {
-    font-family: Outfit;
-    src: url(../fonts/Outfit-Medium.ttf);
-    font-weight: 500;
-  }
-  @font-face {
-    font-family: Outfit;
-    src: url(../fonts/Outfit-SemiBold.ttf);
-    font-weight: 600;
-  }
-  
-  
-  html {
-      scroll-behavior: smooth;
-  }
+  font-family: Aeonik;
+  src: url(../fonts/Aeonik-Medium.ttf);
+  font-weight: 500;
+}
 
-  body {
-    font-family: Outfit, Almarai, sans-serif;
-    // padding-top: 80px;
-  }
-  
-  .times-font {
-    font-family: Times, Almarai, sans-serif;
-  }
-  
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/helveticaNeueRoman.ttf); // regular
+  font-weight: 500;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  //font-family: Helvetica, Almarai, sans-serif;
+  // padding-top: 80px;
+}
+
+.container {
+  width: 100%;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@include respond-below(sm) {
   .container {
-    width: 100%;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
-    margin-right: auto;
-    margin-left: auto;
+    max-width: 540px;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
   }
-  
-  @include respond-below(sm) {
-    .container {
-      max-width: 540px;
-      padding-right: 0.5rem;
-      padding-left: 0.5rem;
-    }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
   }
-  
-  @media (min-width: 768px) {
-    .container {
-      max-width: 720px;
-    }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
   }
-  
-  @media (min-width: 992px) {
-    .container {
-      max-width: 960px;
-    }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
   }
-  
-  @media (min-width: 1200px) {
-    .container {
-      max-width: 1140px;
-    }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+    padding-right: 1px;
+    padding-left: 1px;
   }
-  
-  @media (min-width: 1400px) {
-    .container {
-      max-width: 1320px;
-      padding-right: 1px;
-      padding-left: 1px;
-    }
-  }
-  .text-4xl, .text-3xl {
-    @apply max-md:text-2xl max-md:font-bold;
-  }
-  
-  .text-2xl {
-    @apply max-md:text-xl max-md:font-bold;
-  }
-  
-  .text-xl {
-    @apply max-md:text-lg;
-  }
-  
-  .text-lg {
-    @apply max-md:text-base;
-  }
-  
-  .text-base {
-    @apply max-md:text-sm;
-  }
+}
+.text-4xl,
+.text-3xl {
+  @apply max-md:text-2xl max-md:font-bold;
+}
+
+.text-2xl {
+  @apply max-md:text-xl max-md:font-bold;
+}
+
+.text-xl {
+  @apply max-md:text-lg;
+}
+
+.text-lg {
+  @apply max-md:text-base;
+}
+
+.text-base {
+  @apply max-md:text-sm;
+}

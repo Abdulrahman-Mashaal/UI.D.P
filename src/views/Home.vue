@@ -1,5 +1,5 @@
 <script setup>
-import Identity from '@/views/Identity.vue';
+import Hero from '@/views/Hero.vue';
 import About from '@/views/About.vue';
 import Automation from '@/views/Automation.vue';
 import Solution from '@/views/Solution.vue';
@@ -7,7 +7,7 @@ import Stories from '@/views/Stories.vue';
 </script>
 <template>
     <div>
-         <Identity/>
+         <Hero/>
          <About/>
          <Automation/>
          <Solution/>

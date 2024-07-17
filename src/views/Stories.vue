@@ -11,7 +11,7 @@ import aboutSupport from '@images/vector/about-support.png'
                 <h3 class="mb-7">You are in good company</h3>
                 <p class="text-sm text-[#ABACB2]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit pariatur illum exercitationem minus eum quibusdam nobis repellendus a, mollitia explicabo.</p>
             </div>
-            <button class="btn-comfortable rounded-xl btn-reversed-outlined">More success stories</button>  
+            <button class="btn btn--outlined font-medium">More success stories</button>  
         </div>
         <div class="relative">
             <div class="absolute h-56 bg-gradient-to-t from-[#F7F8FAED] to-[#F7F8FA05] w-full bottom-0 left-0 z-50 "></div>

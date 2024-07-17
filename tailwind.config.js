@@ -31,7 +31,8 @@ module.exports = {
       '2xl': '1400px',
     },
     fontFamily: {
-      'times': "Times, Almarai, sans-serif"
+      'helvetica': "Helvetica, sans-serif",
+      'aeonik': "Aeonik, sans-serif",
     },
     fontSize: {
       sm: [
@@ -123,6 +124,7 @@ module.exports = {
         100: "#C8C8C8"
       },
       hero: 'rgb(184, 225, 214)',
+      transparent: 'transparent',
     },
   },
 

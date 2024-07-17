@@ -14,12 +14,12 @@ import { ref } from 'vue'
                 <div class="bg-white-700 p-6 flex gap-5 rounded-xl border accordion">
                     <span class="w-6 h-6 justify-center before-obj gap-2 accordion-icon"></span>
                     <div>
-                        <p class="text-base">Sales support around the clock</p>
+                        <h5 class="text-base font-semibold">Sales support around the clock</h5>
                         <div class="accordion-content">
                             <div class="relative z-10 accordion-inner">
                                 <div class="">
                                     <p class="text-sm text-[#ABACB2] mb-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non ad natus nam minima deleniti enim accusantium perspiciatis rerum nulla!</p>
-                                    <button class="btn-comfortable rounded-xl btn-reversed-outlined">Learn more</button>
+                                    <button class="btn btn--outlined font-semibold">Learn more</button>
                                 </div>
                             </div>
                         </div>
@@ -29,12 +29,12 @@ import { ref } from 'vue'
                 <div class="bg-white-700 p-6 flex gap-5 rounded-xl cursor-pointer border accordion">
                     <span class="w-6 h-6 justify-center before-obj gap-2 accordion-icon"></span>
                     <div>
-                        <p class="text-base">Sales support around the clock</p>
+                        <h5 class="text-base font-semibold">Sales support around the clock</h5>
                         <div class="accordion-content">
                             <div class="relative z-10 accordion-inner">
                                 <div class="">
                                     <p class="text-sm text-[#ABACB2] mb-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non ad natus nam minima deleniti enim accusantium perspiciatis rerum nulla!</p>
-                                    <button class="btn-comfortable rounded-xl btn-reversed-outlined">Learn more</button>
+                                    <button class="btn btn--outlined font-semibold">Learn more</button>
                                 </div>
                             </div>
                         </div>
@@ -44,12 +44,12 @@ import { ref } from 'vue'
                 <div class="bg-white-700 p-6 flex gap-5 rounded-xl cursor-pointer border accordion">
                     <span class="w-6 h-6 justify-center before-obj gap-2 accordion-icon"></span>
                     <div>
-                        <p class="text-base">Sales support around the clock</p>
+                        <h5 class="text-base font-semibold">Sales support around the clock</h5>
                         <div class="accordion-content">
                             <div class="relative z-10 accordion-inner">
                                 <div class="">
                                     <p class="text-sm text-[#ABACB2] mb-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non ad natus nam minima deleniti enim accusantium perspiciatis rerum nulla!</p>
-                                    <button class="btn-comfortable rounded-xl btn-reversed-outlined">Learn more</button>
+                                    <button class="btn btn--outlined font-semibold">Learn more</button>
                                 </div>
                             </div>
                         </div>
@@ -59,12 +59,12 @@ import { ref } from 'vue'
                 <div class="bg-white-700 p-6 flex gap-5 rounded-xl cursor-pointer border accordion">
                     <span class="w-6 h-6 justify-center before-obj gap-2 accordion-icon"></span>
                     <div>
-                        <p class="text-base">Sales support around the clock</p>
+                        <h5 class="text-base font-semibold">Sales support around the clock</h5>
                         <div class="accordion-content">
                             <div class="relative z-10 accordion-inner">
                                 <div class="">
                                     <p class="text-sm text-[#ABACB2] mb-7">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta non ad natus nam minima deleniti enim accusantium perspiciatis rerum nulla!</p>
-                                    <button class="btn-comfortable rounded-xl btn-reversed-outlined">Learn more</button>
+                                    <button class="btn btn--outlined font-semibold">Learn more</button>
                                 </div>
                             </div>
                         </div>

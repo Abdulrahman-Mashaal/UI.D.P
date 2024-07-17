@@ -2,14 +2,20 @@
 import aboutSales from '@images/vector/about-sales.png'
 import aboutMarketing from '@images/vector/about-marketing.png'
 import aboutSupport from '@images/vector/about-support.png'
+import rightArrow from '@images/icons/right-arrow-gray.svg'
+import leftArrow from '@images/icons/left-arrow-gray.svg'
 </script>
 <template>
     <section class="py-20 px-24">
         <div class="flex items-center justify-between mb-12">
             <h3>About us</h3>
             <div class="flex items-center gap-4">
-             <button class="w-8 h-8 rounded-full border border-[#5B5B5B] justify-center before-obj gap-2 before:content-[url('@images/icons/left-arrow-gray.svg')]"></button>   
-             <button class="w-8 h-8 rounded-full border border-[#5B5B5B] justify-center before-obj gap-2 before:content-[url('@images/icons/right-arrow-gray.svg')]"></button>   
+             <button class="flex items-center justify-center w-8 h-8 rounded-full border border-[#5B5B5B]">
+                <img :src="leftArrow" alt="left arrow">
+             </button>   
+             <button class="flex items-center justify-center w-8 h-8 rounded-full border border-[#5B5B5B]">
+                <img :src="rightArrow" alt="right arrow">
+             </button>   
             </div>
         </div>
         <div class="overflow-hidden flex items-stretch gap-6">

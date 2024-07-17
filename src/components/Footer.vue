@@ -6,15 +6,15 @@ import reversedLogo from '@images/reversed-logo.svg'
     <div class="self-center">
       <!-- title -->
       <img :src="reversedLogo" alt="reverse logo" class="mb-3">
-      <p class="mb-7 footer-link">Superchat - The name says it all</p>
+      <p class="mb-7 footer-link font-helvetica">Superchat - The name says it all</p>
       <div class="flex flex-col gap-3">
-        <p class="footer-link before-obj gap-3 before:content-[url('@images/icons/phone.svg')]">+44 1234 051725</p>
-        <p class="footer-link before-obj gap-3 before:content-[url('@images/icons/mail.svg')]">hello@superchat.com</p>
+        <p class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/phone.svg')]">+44 1234 051725</p>
+        <p class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/mail.svg')]">hello@superchat.com</p>
       </div>
     </div>
     <div class="flex items-start justify-between gap-28 self-start">
       <div>
-        <p class="mb-4 text-base font-normal">Product</p>
+        <p class="mb-4 text-base font-normal font-aeonik">Product</p>
         <div class="flex flex-col gap-2">
           <a href="#" class="footer-link">WhatsApp Newsletter</a>
           <a href="#" class="footer-link">Automation</a>
@@ -24,7 +24,7 @@ import reversedLogo from '@images/reversed-logo.svg'
         </div>
       </div>
       <div>
-        <p class="mb-4 text-base font-normal">About</p>
+        <p class="mb-4 text-base font-normal font-aeonik">About</p>
         <div class="flex flex-col gap-2">
           <a href="#" class="footer-link">The goods</a>
           <a href="#" class="footer-link">Carrers</a>
@@ -34,7 +34,7 @@ import reversedLogo from '@images/reversed-logo.svg'
         </div>
       </div>
       <div>
-        <p class="mb-4 text-base font-normal">App</p>
+        <p class="mb-4 text-base font-normal font-aeonik">App</p>
         <div class="flex flex-col gap-2">
           <a href="#" class="footer-link">API Documentation</a>
           <a href="#" class="footer-link">Automations</a>
