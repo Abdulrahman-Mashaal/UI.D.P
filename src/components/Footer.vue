@@ -1,15 +1,18 @@
 <script setup>
-import reversedLogo from '@images/reversed-logo.svg'
+import ReversedLogoSVG from '@images/reversed-logo.svg?component'
 </script>
 <template>
   <footer class="grid grid-cols-2 bg-[#2740BF] text-white-700 py-16 px-24">
     <div class="self-center">
       <!-- title -->
-      <img :src="reversedLogo" alt="reverse logo" class="mb-3">
+      <!-- <img :src="reversedLogo" alt="reverse logo" class="mb-3"> -->
+      <ReversedLogoSVG alt="reverse logo" class="mb-3"/>
       <p class="mb-7 footer-link font-helvetica">Superchat - The name says it all</p>
       <div class="flex flex-col gap-3">
-        <p class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/phone.svg')]">+44 1234 051725</p>
-        <p class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/mail.svg')]">hello@superchat.com</p>
+        <a href="tel:+201008760241" target="_blank" class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/phone.svg')]">+20 100 876 0241</a>
+        <a href="sms:+201008760241" target="_blank" class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/sms.svg')]">Text Us</a>
+        <a href="http://wa.me/+201008760241" target="_blank" class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/whatsapp.svg')]">Open Whatsapp</a>
+        <a href="mailto:amashaal009@gmail.com" target="_blank" class="footer-link font-helvetica before-obj gap-3 before:content-[url('@images/icons/mail.svg')]">amashaal009@gmail.com</a>
       </div>
     </div>
     <div class="flex items-start justify-between gap-28 self-start">

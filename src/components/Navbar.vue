@@ -24,7 +24,7 @@ import RightArrowSVG from '@images/icons/right-arrow.svg?component';
         class="btn btn--sm btn--primary text-base"
       >
         Apply now
-        <RightArrowSVG alt="right arrow" class="stroke-current"/>
+        <RightArrowSVG alt="right arrow"/>
       </button>
     </div>
   </nav>

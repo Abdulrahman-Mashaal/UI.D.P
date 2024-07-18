@@ -11,10 +11,10 @@ import LeftArrowSVG from '@images/icons/left-arrow-gray.svg?component'
             <h3>About us</h3>
             <div class="flex items-center gap-4">
              <button class="flex items-center justify-center w-8 h-8 rounded-full border border-[#5B5B5B]">
-                <LeftArrowSVG alt="left arrow" class="stroke-current"/>
+                <LeftArrowSVG alt="left arrow"/>
              </button>   
              <button class="flex items-center justify-center w-8 h-8 rounded-full border border-[#5B5B5B]">
-                <RightArrowSVG alt="right arrow" class="stroke-current"/>
+                <RightArrowSVG alt="right arrow"/>
              </button>   
             </div>
         </div>

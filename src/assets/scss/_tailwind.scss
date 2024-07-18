@@ -66,6 +66,9 @@
     svg {
       @apply w-auto h-auto;
     }
+    &svg{
+      @apply stroke-current fill-current;
+    }
     // size config
     &--sm {
       @apply h-10 rounded-[32px];
