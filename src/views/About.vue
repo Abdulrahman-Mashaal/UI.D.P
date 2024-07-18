@@ -2,8 +2,8 @@
 import aboutSales from '@images/vector/about-sales.png'
 import aboutMarketing from '@images/vector/about-marketing.png'
 import aboutSupport from '@images/vector/about-support.png'
-import rightArrow from '@images/icons/right-arrow-gray.svg'
-import leftArrow from '@images/icons/left-arrow-gray.svg'
+import RightArrowSVG from '@images/icons/right-arrow-gray.svg?component'
+import LeftArrowSVG from '@images/icons/left-arrow-gray.svg?component'
 </script>
 <template>
     <section class="py-20 px-24">
@@ -11,10 +11,10 @@ import leftArrow from '@images/icons/left-arrow-gray.svg'
             <h3>About us</h3>
             <div class="flex items-center gap-4">
              <button class="flex items-center justify-center w-8 h-8 rounded-full border border-[#5B5B5B]">
-                <img :src="leftArrow" alt="left arrow">
+                <LeftArrowSVG alt="left arrow" class="stroke-current"/>
              </button>   
              <button class="flex items-center justify-center w-8 h-8 rounded-full border border-[#5B5B5B]">
-                <img :src="rightArrow" alt="right arrow">
+                <RightArrowSVG alt="right arrow" class="stroke-current"/>
              </button>   
             </div>
         </div>

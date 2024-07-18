@@ -1,6 +1,6 @@
 <script setup>
 import logo from '@images/logo.svg';
-import rightArrow from '@images/icons/right-arrow.svg';
+import RightArrowSVG from '@images/icons/right-arrow.svg?component';
 </script>
 <template>
   <nav class="px-24 flex items-center justify-between h-16">
@@ -24,10 +24,7 @@ import rightArrow from '@images/icons/right-arrow.svg';
         class="btn btn--sm btn--primary text-base"
       >
         Apply now
-        <svg width="8" height="12" viewBox="0 0 8 12" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M1.50004 11L6.5 6L1.5 1" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="16"/>
-          </svg>
-          
+        <RightArrowSVG alt="right arrow" class="stroke-current"/>
       </button>
     </div>
   </nav>
