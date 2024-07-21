@@ -31,7 +31,8 @@ module.exports = {
       '2xl': '1400px',
     },
     fontFamily: {
-      'times': "Times, Almarai, sans-serif"
+      'helvetica': "Helvetica, sans-serif",
+      'aeonik': "Aeonik, sans-serif",
     },
     fontSize: {
       sm: [
@@ -86,8 +87,17 @@ module.exports = {
     },
     colors: {
       primary: {
-        700: "#16707A",
-        600: "#49ECC0"
+        '50': '#ecfffd',
+        '100': '#cffefb',
+        '200': '#a5fcf9',
+        '300': '#67f9f6',
+        '400': '#22eeed',
+        '500': '#06d3d4',
+        '600': '#08a9b2',
+        '700': '#0e8690',
+        '800': '#16707a',
+        '900': '#165963',
+        '950': '#083b44',
       },
       black: {
         700: "#000000",
@@ -114,6 +124,7 @@ module.exports = {
         100: "#C8C8C8"
       },
       hero: 'rgb(184, 225, 214)',
+      transparent: 'transparent',
     },
   },
 

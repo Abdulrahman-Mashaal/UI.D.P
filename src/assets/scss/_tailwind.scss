@@ -23,11 +23,17 @@
 @tailwind variants;
 
 @layer base {
+  body {
+    @apply font-helvetica text-base;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-aeonik font-medium
+  }
   h1 {
-    @apply text-4xl font-times;
+    @apply text-4xl;
   }
   h2 {
-    @apply text-4xl font-times;
+    @apply text-4xl;
   }
   h3 {
     @apply text-2xl;
@@ -41,17 +47,72 @@
   h6 {
     @apply text-base;
   }
-
-  body {
-    @apply text-base;
-  }
 }
 @layer components {
+  
+  // nav link styles
   .nav-link {
-    @apply text-[#222222] capitalize text-base font-normal;
+    @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
+  }
+
+  // footer link styles
+  .footer-link {
+    @apply text-white-700 text-sm font-light whitespace-nowrap;
+  }
+
+  // button styles
+  .btn {
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium py-[10px] px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
+    &:not([disabled]) {
+      @apply cursor-pointer;
+    }
+    &img,
+    svg {
+      @apply w-auto h-auto;
+    }
+    &svg{
+      @apply stroke-current fill-current;
+    }
+    // size config
+    &--sm {
+      @apply h-10 rounded-[32px];
+    }
+    &--lg {
+      @apply h-[66px] px-12 rounded-[32px];
+    }
+
+    // style config
+    &--primary {
+      @apply bg-black-700 text-white-700 px-5;
+    }
+    &--white {
+      @apply bg-white-700 hover:bg-white-600 text-primary-700 font-medium;
+    }
+    &--text {
+      @apply text-black-700 hover:text-primary-900 px-0 py-0;
+    }
+    &--outlined {
+      @apply text-black-700 font-medium border-[#C5C5D0];
+    }
+    &--outlined-white {
+      @apply text-white-700 font-medium border-white-700;
+    }
   }
 }
 @layer utilities {
-
+  .transition-base {
+    @apply transition-all duration-300 ease-in-out;
+  }
+  .transition-before-base {
+    @apply before:transition-all before:duration-300 before:ease-in-out;
+  }
+  .transition-after-base {
+    @apply after:transition-all after:duration-300 after:ease-in-out;
+  }
+  .before-obj {
+    @apply relative inline-flex items-center before:w-5 before:h-5 before:inline-flex before:items-center before:justify-center before:leading-[0];
+  }
+  .after-obj {
+    @apply relative inline-flex items-center after:w-5 after:h-5 after:inline-flex after:items-center after:justify-center after:leading-[0];
+  }
 }
-
