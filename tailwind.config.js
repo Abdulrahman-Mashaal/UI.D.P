@@ -31,8 +31,12 @@ module.exports = {
       "2xl": "1400px",
     },
     fontFamily: {
-      helvetica: "Helvetica, sans-serif",
-      aeonik: "Aeonik, sans-serif",
+      Kayak: "Kayak, sans-serif",
+      Clash: "Clash, sans-serif",
+      InterRegular: "InterRegular, sans-serif",
+      InterMedium: "InterMedium, sans-serif",
+      InterSemiBold: "InterSemiBold, sans-serif",
+      InterBold: "InterBold, sans-serif",
     },
     fontSize: {
       sm: [

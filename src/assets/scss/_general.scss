@@ -1,15 +1,36 @@
 // Global Fonts
 @font-face {
-  font-family: Aeonik;
-  src: url(../fonts/Aeonik/Aeonik-Medium.ttf);
-  font-weight: 500;
+  font-family: Kayak;
+  src: url(..fonts/Kayak/kayaksans-bold.ttf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Clash;
+  src: url(..fonts/Clash/clash-semibold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: InterRegular;
+  src: url(../font/Inter/inter-reg.ttf);
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: Helvetica;
-  src: url(../fonts/HelvaticaNeue/helveticaneue-medium.ttf); // regular
+  font-family: InterMedium;
+  src: url(../fonts/Inter/inter-medium.ttf);
   font-weight: 500;
 }
+@font-face {
+  font-family: InterSemiBold;
+  src: url(../fonts/Inter/inter-semibold.ttf);
+  font-weight: 600;
+}
+@font-face {
+  font-family: InterBold;
+  src: url(../fonts/Inter/inter-bold.ttf);
+  font-weight: 700;
+}
+
 
 :root {
   --primary: #16707a;
