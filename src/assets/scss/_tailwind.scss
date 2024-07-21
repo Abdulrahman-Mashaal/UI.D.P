@@ -56,7 +56,7 @@
 @layer components {
   // nav link styles
   .nav-link {
-    @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
+    @apply text-[#12141D] capitalize text-sm font-InterMedium whitespace-nowrap;
   }
 
   // footer link styles
@@ -66,7 +66,7 @@
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize px-5 border border-transparent h-[50px] rounded cursor-default font-InterSemiBold;
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize py-3 px-5 border border-transparent h-[50px] rounded cursor-default font-InterSemiBold leading-0;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -87,18 +87,17 @@
 
     // style config
     &--primary {
-      @apply bg-black-700 text-white-700 px-5;
+      @apply bg-black-700 text-white-700;
     }
     &--white {
       @apply bg-white-700 text-black-700 border-black-700;
     }
     &--text {
-      @apply text-black-700 px-0 py-0;
+      @apply text-black-700 px-0 py-0 h-auto;
     }
     &--outlined {
       @apply text-black-700 border-black-700;
     }
-
   }
 }
 @layer utilities {

@@ -5,7 +5,7 @@ import Footer from "@/components/Footer.vue";
 <template>
   <div>
     <Navbar />
-    <main>
+    <main class="bg-link-water-200">
       <RouterView />
     </main>
     <Footer />
