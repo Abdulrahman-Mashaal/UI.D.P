@@ -1,9 +1,5 @@
-<script setup>
-</script>
+<script setup></script>
 <template>
-    <div class="">
-        home
-    </div>
+  <div class="">home</div>
 </template>
-<style scoped>
-</style>
+<style scoped></style>

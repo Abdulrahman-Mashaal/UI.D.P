@@ -1,9 +1,3 @@
-:root {
-  --primary: #16707a;
-  --offWhite: #e5e5e5;
-  --white: #ffffff;
-}
-
 // Global Fonts
 @font-face {
   font-family: Aeonik;
@@ -15,6 +9,12 @@
   font-family: Helvetica;
   src: url(../fonts/helveticaNeueRoman.ttf); // regular
   font-weight: 500;
+}
+
+:root {
+  --primary: #16707a;
+  --offWhite: #e5e5e5;
+  --white: #ffffff;
 }
 
 html {

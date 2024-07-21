@@ -1,9 +1,5 @@
-<script setup>
-</script>
+<script setup></script>
 <template>
-  <nav>
-    nav
-  </nav>
+  <nav>nav</nav>
 </template>
-<style scoped>
-</style>
+<style scoped></style>

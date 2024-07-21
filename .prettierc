@@ -1,0 +1,9 @@
+{
+    "plugins": [
+      "prettier-plugin-tailwindcss"
+    ],
+    "tailwindcss": {}
+  }
+  
+  // command line to run code 
+  // npx prettier --write .

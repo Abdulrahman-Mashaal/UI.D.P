@@ -2,7 +2,7 @@ const config = {
   tailwindjs: "./tailwind.config.js",
   port: 9050,
   purgecss: {
-    content: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+    content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
     safelist: {
       standard: [/^pre/, /^code/],
       greedy: [/token.*/],
@@ -23,7 +23,7 @@ const plugins = {
 
 // base folder paths
 const basePaths = ["src", "dist", "build"];
-``
+``;
 // folder assets paths
 const folders = ["css", "js", "img", "fonts", "third-party"];
 
@@ -37,7 +37,7 @@ basePaths.forEach((base) => {
   };
   folders.forEach((folderName) => {
     const toCamelCase = folderName.replace(/\b-([a-z])/g, (_, c) =>
-      c.toUpperCase()
+      c.toUpperCase(),
     );
     paths[base][toCamelCase] = `./${base}/${folderName}`;
   });

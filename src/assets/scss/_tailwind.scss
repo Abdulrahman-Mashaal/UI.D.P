@@ -26,8 +26,13 @@
   body {
     @apply font-helvetica text-base;
   }
-  h1, h2, h3, h4, h5, h6 {
-    @apply font-aeonik font-medium
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-aeonik font-medium;
   }
   h1 {
     @apply text-4xl;
@@ -49,7 +54,6 @@
   }
 }
 @layer components {
-  
   // nav link styles
   .nav-link {
     @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
@@ -70,7 +74,7 @@
     svg {
       @apply w-auto h-auto;
     }
-    &svg{
+    &svg {
       @apply stroke-current fill-current;
     }
     // size config
