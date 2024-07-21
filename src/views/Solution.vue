@@ -20,7 +20,6 @@ import solutionTwo from '@images/vector/solution02.png'
                 <a href="#" class="text-xl font-aeonik font-normal text-[#939393] cursor-pointer">Nonprofit</a>
             </div>
             <p class="mb-5 text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi a consequatur voluptate voluptas officia minima illo dicta</p>
-            <!-- <a href="#" class="btn-plain hover:underline">Learn more</a> -->
             <a href="#" class="btn btn--text hover:underline">Learn more</a>
         </div>
      </section>
