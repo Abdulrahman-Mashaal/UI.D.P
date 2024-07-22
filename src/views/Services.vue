@@ -7,7 +7,7 @@
     <div class="py-32">
         <div class="flex items-center justify-between mb-[86px]">
             <h2 class="font-semibold max-w-[636px]">Take the lead in smartly social media marketing</h2>
-            <p class="font-InterRegular text-sm max-w-[526px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae iure numquam saepe. Impedit deleniti pariatur veniam quos, id consequatur.</p>
+            <p class="font-InterRegular text-base max-w-[526px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae iure numquam saepe. Impedit deleniti pariatur veniam quos, id consequatur.</p>
         </div>
         <div class="grid grid-cols-3 gap-6">
             <!-- card -->
