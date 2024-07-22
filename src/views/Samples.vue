@@ -3,7 +3,7 @@
     import sample2 from '@images/vector/sample2.png'
 </script>
 <template>
-    <div class="py-16">
+    <div class="my-16">
         <section class="flex items-center justify-between mb-28">
             <div class="max-w-[590px]">
                 <img :src="sample1" alt="first sample" class="w-full h-auto">

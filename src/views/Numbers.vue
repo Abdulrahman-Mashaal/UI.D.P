@@ -2,7 +2,7 @@
 </script>
 <template>
     <div class="lg-container">
-        <section class="flex items-center justify-between py-20 px-32 bg-link-water-200">
+        <section class="flex items-center justify-between my-32 py-20 px-32 bg-link-water-200">
             <div class="flex flex-col items-start justify-center">
                 <h2 class="text-[72px] font-medium">15</h2>
                 <p class="font-InterRegular text-sm">Years of experience</p>

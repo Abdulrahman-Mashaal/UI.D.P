@@ -3,7 +3,7 @@
 </script>
 <template>
     <div class="container">
-        <div class="py-16">
+        <div class="my-32">
             <section class="flex items-start justify-between mb-28">
                 <div class="max-w-[668px]">
                     <img :src="social" alt="social image" class="w-full h-auto">
