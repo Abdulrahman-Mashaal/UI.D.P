@@ -57,9 +57,24 @@
                 </div>
                 <div class="flex flex-wrap items-start justify-between">
                     <!-- question -->
-                    <div>
-                        <h4 class="mb-6">Q. What support and service package are available?</h4>
-                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta inventore error dolore, iste animi ipsum nesciunt commodi molestiae omnis ipsam doloribus qui impedit atque sequi! Optio quia quae quis itaque.</p>
+                    <div class="mb-11 max-w-[500px]">
+                        <h4 class="mb-6 font-InterSemiBold text-base">Q. What support and service package are available?</h4>
+                        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta inventore error dolore, iste animi ipsum nesciunt commodi molestiae omnis ipsam doloribus qui impedit atque sequi! Optio quia quae quis itaque.</p>
+                    </div>
+                    <!-- question -->
+                    <div class="mb-11 max-w-[500px]">
+                        <h4 class="mb-6 font-InterSemiBold text-base">Q. What support and service package are available?</h4>
+                        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta inventore error dolore, iste animi ipsum nesciunt commodi molestiae omnis ipsam doloribus qui impedit atque sequi! Optio quia quae quis itaque.</p>
+                    </div>
+                    <!-- question -->
+                    <div class="mb-11 max-w-[500px]">
+                        <h4 class="mb-6 font-InterSemiBold text-base">Q. What support and service package are available?</h4>
+                        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta inventore error dolore, iste animi ipsum nesciunt commodi molestiae omnis ipsam doloribus qui impedit atque sequi! Optio quia quae quis itaque.</p>
+                    </div>
+                    <!-- question -->
+                    <div class="mb-11 max-w-[500px]">
+                        <h4 class="mb-6 font-InterSemiBold text-base">Q. What support and service package are available?</h4>
+                        <p class="text-sm">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta inventore error dolore, iste animi ipsum nesciunt commodi molestiae omnis ipsam doloribus qui impedit atque sequi! Optio quia quae quis itaque.</p>
                     </div>
                 </div>
             </section>
