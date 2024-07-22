@@ -7,11 +7,11 @@
     <div class="py-32">
         <div class="flex items-center justify-between mb-[86px]">
             <h2 class="font-semibold max-w-[636px]">Take the lead in smartly social media marketing</h2>
-            <p class="font-InterRegular text-sm text-vulcan-950 max-w-[526px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae iure numquam saepe. Impedit deleniti pariatur veniam quos, id consequatur.</p>
+            <p class="font-InterRegular text-sm max-w-[526px]">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officiis beatae iure numquam saepe. Impedit deleniti pariatur veniam quos, id consequatur.</p>
         </div>
         <div class="grid grid-cols-3 gap-6">
             <!-- card -->
-            <div class="border border-vulcan-950 rounded-[20px] px-12 pt-12 pb-10 text-vulcan-950 flex flex-col max-w-[416px]">
+            <div class="border border-vulcan-950 rounded-[20px] px-12 pt-12 pb-10 flex flex-col max-w-[416px]">
                 <noteSVG alt="note vector" class="mb-11"/>
                 <div class="flex flex-col items-start justify-between grow">
                     <div class="mb-10">
@@ -22,7 +22,7 @@
                 </div>
             </div>
             <!-- card -->
-            <div class="border border-vulcan-950 rounded-[20px] px-12 pt-12 pb-10 text-vulcan-950 flex flex-col max-w-[416px]">
+            <div class="border border-vulcan-950 rounded-[20px] px-12 pt-12 pb-10 flex flex-col max-w-[416px]">
                 <linkSVG alt="link vector" class="mb-11"/>
                 <div class="flex flex-col items-start justify-between grow">
                     <div class="mb-10">
@@ -33,7 +33,7 @@
                 </div>
             </div>
             <!-- card -->
-            <div class="border border-vulcan-950 rounded-[20px] px-12 pt-12 pb-10 text-vulcan-950 flex flex-col max-w-[416px]">
+            <div class="border border-vulcan-950 rounded-[20px] px-12 pt-12 pb-10 flex flex-col max-w-[416px]">
                 <searchSVG alt="search vector" class="mb-11"/>
                 <div class="flex flex-col items-start justify-between grow">
                     <div class="mb-10">

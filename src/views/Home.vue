@@ -1,6 +1,7 @@
 <script setup>
 import Hero from "./Hero.vue";
 import Services from "./Services.vue";
+import Samples from "./Samples.vue";
 </script>
 <template>
   <div class="bg-link-water-200">
@@ -8,6 +9,7 @@ import Services from "./Services.vue";
   </div>
   <div class="container">
     <Services />
+    <Samples />
   </div>
 </template>
 <style scoped></style>

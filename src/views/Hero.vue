@@ -9,7 +9,7 @@ import ratingSVG from "@images/vector/rating.svg";
       <h1 class="max-w-[978px] mb-4">
         Get your all social services form groclone
       </h1>
-      <p class="font-InterRegular text-vulcan-950 mb-6">
+      <p class="font-InterRegular mb-6">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe
         laudantium, consectetur reprehenderit esse repellat porro ipsa nostrum
         ab eius tempore unde aliquam magnam Explicabo velit harum molestiae
