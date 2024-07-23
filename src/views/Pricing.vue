@@ -1,14 +1,31 @@
 <script setup>
+ import { ref } from 'vue'
+ const isAnnual = ref(false)
 </script>
 <template>
     <div class="sm-container">
-        <div class="my-32">
+        <div class="py-32 ">
             <section class="">
                 <div class="text-center max-w-[526px] mx-auto mb-14">
                     <h2 class="font-semibold mb-9">Choose a plan that works for you</h2>
-                    <div>
-
-                    </div>
+                     <!-- Pricing toggle -->
+        <div class="flex justify-center max-w-[250px] m-auto">
+            <div class="relative flex w-full p-[2px] shadow-md bg-white-700 rounded-[15px]">
+                <span class="absolute inset-0 m-1 pointer-events-none" aria-hidden="true">
+                    <span class="absolute inset-0 w-1/2 rounded-[14px] bg-algae-green-300  shadow-sm shadow-indigo-950/10 transform transition-transform duration-150 ease-in-out" :class="isAnnual ? 'translate-x-0' : 'translate-x-full'"></span>
+                </span>
+                <button
+                    class="relative flex-1 text-black-700 text-basic font-InterSemiBold w-[130px] h-12 px-8 "
+                    @click="isAnnual = true"
+                    :aria-pressed="isAnnual"
+                >Yearly</button>
+                <button
+                    class="relative flex-1 text-black-700 text-basic font-InterSemiBold w-[130px] h-12 px-8 "
+                    @click="isAnnual = false"
+                    :aria-pressed="isAnnual"
+                >Monthly</button>
+            </div>
+        </div> 
                 </div>
                 <!-- pricing plans -->
                 <div class="grid grid-cols-3 gap-6 mb-28">
