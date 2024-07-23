@@ -61,7 +61,10 @@
 
   // footer link styles
   .footer-link {
-    @apply text-white-700 text-sm font-light whitespace-nowrap;
+    @apply text-black-700 text-sm font-InterSemiBold whitespace-nowrap;
+  }
+  .footer-info{
+    @apply text-[#B7B8BB] text-sm font-InterRegular whitespace-nowrap;
   }
 
   // button styles
