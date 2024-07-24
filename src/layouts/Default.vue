@@ -3,13 +3,10 @@ import Navbar from '@/components/Navbar.vue';
 import Footer from '@/components/Footer.vue';
 </script>
 <template>
-    <div class="container flex flex-col min-h-screen">
-            <Navbar/>
-            <main class="grow">
-                <RouterView />
-            </main>
-            <Footer/>
-    </div>
+  <Navbar />
+  <main>
+    <RouterView />
+  </main>
+  <Footer />
 </template>
-<style scoped>
-</style>
+<style scoped></style>

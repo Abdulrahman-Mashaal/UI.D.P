@@ -7,14 +7,34 @@
 // Global Fonts
 @font-face {
   font-family: Aeonik;
+  src: url(../fonts/Aeonik-Regular.ttf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Aeonik;
   src: url(../fonts/Aeonik-Medium.ttf);
   font-weight: 500;
+}
+@font-face {
+  font-family: Aeonik;
+  src: url(../fonts/Aeonik-Bold.ttf);
+  font-weight: 700;
 }
 
 @font-face {
   font-family: Helvetica;
-  src: url(../fonts/helveticaNeueRoman.ttf); // regular
+  src: url(../fonts/HelveticaNeueRoman.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/helveticaneue-medium.ttf);
   font-weight: 500;
+}
+@font-face {
+  font-family: Helvetica;
+  src: url(../fonts/helveticaneue-bold.ttf);
+  font-weight: 700;
 }
 
 html {
@@ -23,6 +43,7 @@ html {
 
 body {
   //font-family: Helvetica, Almarai, sans-serif;
+  font-weight: 400;
 }
 
 .container {
@@ -61,9 +82,9 @@ body {
 
 @media (min-width: 1400px) {
   .container {
-    max-width: 1320px;
-    padding-right: 1px;
-    padding-left: 1px;
+    max-width: 1240px;
+    padding-right: 0;
+    padding-left: 0;
   }
 }
 .text-4xl,

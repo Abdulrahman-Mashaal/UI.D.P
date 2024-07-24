@@ -24,7 +24,7 @@
 
 @layer base {
   body {
-    @apply font-helvetica text-base;
+    @apply font-helvetica;
   }
   h1, h2, h3, h4, h5, h6 {
     @apply font-aeonik font-medium
@@ -52,17 +52,17 @@
   
   // nav link styles
   .nav-link {
-    @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
+    @apply text-shark-950 capitalize text-[16px] leading-6 font-helvetica font-medium whitespace-nowrap;
   }
 
   // footer link styles
   .footer-link {
-    @apply text-white-700 text-sm font-light whitespace-nowrap;
+    @apply text-white text-[13px] font-light font-helvetica leading-[20px] whitespace-nowrap;
   }
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium py-[10px] px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -83,10 +83,10 @@
 
     // style config
     &--primary {
-      @apply bg-black-700 text-white-700 px-5;
+      @apply bg-black-700 text-white px-5;
     }
     &--white {
-      @apply bg-white-700 hover:bg-white-600 text-primary-700 font-medium;
+      @apply bg-white hover:bg-white text-woodsmoke-950 font-medium;
     }
     &--text {
       @apply text-black-700 hover:text-primary-900 px-0 py-0;
@@ -95,7 +95,7 @@
       @apply text-black-700 font-medium border-[#C5C5D0];
     }
     &--outlined-white {
-      @apply text-white-700 font-medium border-white-700;
+      @apply text-white font-medium border-white;
     }
   }
 }
