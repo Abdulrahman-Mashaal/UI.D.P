@@ -85,9 +85,37 @@ module.exports = {
       ],
     },
     colors: {
+      transparent: "transparent",
       black: '#000',
       white: 'ffffff',
-      transparent: "transparent",
+      mineShaft: {
+        950: '#2b2b2b',
+    },
+    chicago: {
+        600: '#595959',
+    },
+    wildSand: {
+        50: '#f5f5f5',
+    },
+    mineShaft: {
+        900: '#333333',
+    },
+    starDust: {
+        400: '#999999',
+    },
+    sazerac: {
+        100: '#fef3df',
+    },
+    grayNurse: {
+        100: '#e6ebe4',
+    },
+    
+    
+    
+    
+    
+    
+    
     },
   },
 
