@@ -87,7 +87,7 @@ module.exports = {
     colors: {
       transparent: "transparent",
       black: '#000',
-      white: 'ffffff',
+      white: '#ffffff',
       mineShaft: {
         900: '#333333',
         950: '#2b2b2b',
@@ -112,6 +112,9 @@ module.exports = {
     },
     gallery: {
         100: '#ebebeb',
+    },
+    mercury: {
+        200: '#e5e5e5',
     },
     
     
