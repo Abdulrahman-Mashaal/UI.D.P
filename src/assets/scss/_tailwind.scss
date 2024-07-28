@@ -59,7 +59,7 @@
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter text-sm;
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter text-sm leading-none;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -89,10 +89,10 @@
       @apply text-black font-medium px-0 py-0;
     }
     &--outlined {
-      @apply text-black font-semibold leading-[14px] border-black;
+      @apply text-black font-semibold leading-none border-black;
     }
     &--outlined-white {
-      @apply text-white font-semibold leading-[14px] border-white;
+      @apply text-white font-semibold leading-none border-white;
     }
   }
 }

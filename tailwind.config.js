@@ -37,49 +37,49 @@ module.exports = {
       sm: [
         ".875rem",
         {
-          lineHeight: "21px",
+          lineHeight: "1.5", // font-size/line-height
           fontWeight: "400",
         },
       ],
       base: [
         "1rem",
         {
-          lineHeight: "27px",
+          lineHeight: "1.68",
           fontWeight: "400",
         },
       ],
       lg: [
         "1.125rem",
         {
-          lineHeight: "28px",
+          lineHeight: "1.5",
           fontWeight: "400",
         },
       ],
       xl: [
         "1.25rem",
         {
-          lineHeight: "14px",
+          lineHeight: "0.7",
           fontWeight: "600",
         },
       ],
       "2xl": [
         "1.625rem",
         {
-          lineHeight: "39px",
+          lineHeight: "1.5",
           fontWeight: "600",
         },
       ],
       "3xl": [
         "2.125rem",
         {
-          lineHeight: "51px",
+          lineHeight: "1.5",
           fontWeight: "700",
         },
       ],
       "4xl": [
         "3.25rem",
         {
-          lineHeight: "62px",
+          lineHeight: "1.19",
           fontWeight: "700",
         },
       ],
