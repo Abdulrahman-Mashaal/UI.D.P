@@ -2,8 +2,8 @@
   import logoSVG from '@images/logo.svg?component'
 </script>
 <template>
-  <header class="bg-transparent border-b border-iron-300">
-   <div class="px-[52px]">
+  <header class="border-b border-iron-300">
+   <div class="container">
      <nav class="flex items-center h-[72px] px-5">
       <button class="me-[60px]">
         <logoSVG alt="logo"/>

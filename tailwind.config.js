@@ -89,6 +89,7 @@ module.exports = {
       black: '#000',
       white: 'ffffff',
       mineShaft: {
+        900: '#333333',
         950: '#2b2b2b',
     },
     chicago: {
@@ -96,9 +97,6 @@ module.exports = {
     },
     wildSand: {
         50: '#f5f5f5',
-    },
-    mineShaft: {
-        900: '#333333',
     },
     starDust: {
         400: '#999999',
@@ -111,6 +109,9 @@ module.exports = {
     },
     iron: {
         300: '#cccccc',
+    },
+    gallery: {
+        100: '#ebebeb',
     },
     
     
