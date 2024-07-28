@@ -1,11 +1,11 @@
 <script setup>
-    import logo from '@images/logo.svg'
+    import logoSVG from '@images/logo.svg?component'
 </script>
 <template>
   <div class="bg-link-water-200">
     <nav class="flex items-center h-28 justify-between container">
       <div>
-        <img :src="logo" alt="logo" />
+        <logoSVG alt="logo" />
       </div>
       <div class="flex items-center justify-between gap-8">
         <a href="#" class="nav-link">demos</a>
