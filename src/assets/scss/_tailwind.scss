@@ -49,17 +49,17 @@
 @layer components {
   // nav link styles
   .nav-link {
-    @apply text-black capitalize text-sm font-regular whitespace-nowrap;
+    @apply text-black capitalize text-sm font-Inter font-normal whitespace-nowrap;
   }
 
   // footer link styles
   .footer-link {
-    @apply text-white text-sm capitalize font-regular whitespace-nowrap;
+    @apply text-white text-sm capitalize font-Inter font-normal whitespace-nowrap;
   }
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter text-sm leading-none;
+    @apply inline-flex gap-2 items-center justify-center text-center text-black decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter text-sm leading-none;
     &:not([disabled]) {
       @apply cursor-pointer;
     }

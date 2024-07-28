@@ -109,6 +109,10 @@ module.exports = {
     grayNurse: {
         100: '#e6ebe4',
     },
+    iron: {
+        300: '#cccccc',
+    },
+    
     
     
     
