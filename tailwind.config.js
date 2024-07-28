@@ -31,8 +31,7 @@ module.exports = {
       "2xl": "1400px",
     },
     fontFamily: {
-      helvetica: "Helvetica, sans-serif",
-      aeonik: "Aeonik, sans-serif",
+      Inter: "Inter, sans-serif",
     },
     fontSize: {
       sm: [
@@ -86,44 +85,8 @@ module.exports = {
       ],
     },
     colors: {
-      primary: {
-        50: "#ecfffd",
-        100: "#cffefb",
-        200: "#a5fcf9",
-        300: "#67f9f6",
-        400: "#22eeed",
-        500: "#06d3d4",
-        600: "#08a9b2",
-        700: "#0e8690",
-        800: "#16707a",
-        900: "#165963",
-        950: "#083b44",
-      },
-      black: {
-        700: "#000000",
-      },
-      white: {
-        700: "#ffffff",
-        600: "#FAFAFA",
-      },
-      green: {
-        700: "#B8E1D680",
-        600: "#00A69D",
-        500: "#B8E1D6",
-      },
-      blue: {
-        700: "#09273B",
-      },
-      gray: {
-        700: "#4C5768",
-        600: "#7E8299",
-        500: "#666666",
-        400: "#D9D9D9",
-        300: "#858585",
-        200: "#C7C7C7",
-        100: "#C8C8C8",
-      },
-      hero: "rgb(184, 225, 214)",
+      black: '#000',
+      white: 'ffffff',
       transparent: "transparent",
     },
   },

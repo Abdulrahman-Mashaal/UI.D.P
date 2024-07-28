@@ -24,24 +24,17 @@
 
 @layer base {
   body {
-    @apply font-helvetica text-base;
+    @apply font-Inter;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-aeonik font-medium;
-  }
+
   h1 {
-    @apply text-4xl;
+    @apply text-4xl font-bold;
   }
   h2 {
-    @apply text-4xl;
+    @apply text-4xl font-bold;
   }
   h3 {
-    @apply text-2xl;
+    @apply text-2xl font-semibold;
   }
   h4 {
     @apply text-xl;
@@ -66,7 +59,7 @@
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -79,10 +72,10 @@
     }
     // size config
     &--sm {
-      @apply h-10 rounded-[32px];
+      @apply h-10;
     }
     &--lg {
-      @apply h-[66px] px-12 rounded-[32px];
+      @apply h-[56px];
     }
 
     // style config
@@ -93,13 +86,13 @@
       @apply bg-white-700 hover:bg-white-600 text-primary-700 font-medium;
     }
     &--text {
-      @apply text-black-700 hover:text-primary-900 px-0 py-0;
+      @apply text-black font-medium px-0 py-0;
     }
     &--outlined {
-      @apply text-black-700 font-medium border-[#C5C5D0];
+      @apply text-black font-semibold border-black;
     }
     &--outlined-white {
-      @apply text-white-700 font-medium border-white-700;
+      @apply text-white font-semibold border-white;
     }
   }
 }
