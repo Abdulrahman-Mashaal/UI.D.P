@@ -66,7 +66,7 @@
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium py-[10px] px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
