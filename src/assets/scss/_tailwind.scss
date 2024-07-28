@@ -24,17 +24,17 @@
 
 @layer base {
   body {
-    @apply font-Inter;
+    @apply font-Inter text-base;
   }
 
   h1 {
-    @apply text-4xl font-bold;
+    @apply text-4xl;
   }
   h2 {
-    @apply text-4xl font-bold;
+    @apply text-3xl;
   }
   h3 {
-    @apply text-2xl font-semibold;
+    @apply text-2xl;
   }
   h4 {
     @apply text-xl;
@@ -49,17 +49,17 @@
 @layer components {
   // nav link styles
   .nav-link {
-    @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
+    @apply text-black capitalize text-sm font-regular whitespace-nowrap;
   }
 
   // footer link styles
   .footer-link {
-    @apply text-white-700 text-sm font-light whitespace-nowrap;
+    @apply text-white text-sm capitalize font-regular whitespace-nowrap;
   }
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter;
+    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter text-sm;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -89,10 +89,10 @@
       @apply text-black font-medium px-0 py-0;
     }
     &--outlined {
-      @apply text-black font-semibold border-black;
+      @apply text-black font-semibold leading-[14px] border-black;
     }
     &--outlined-white {
-      @apply text-white font-semibold border-white;
+      @apply text-white font-semibold leading-[14px] border-white;
     }
   }
 }
