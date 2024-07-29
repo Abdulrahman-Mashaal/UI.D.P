@@ -4,6 +4,7 @@ import Features from '@/views/Features.vue'
 import Excellence from '@/views/Excellence.vue'
 import Integration from '@/views/Integration.vue'
 import Plan from '@/views/Plan.vue'
+import Connections from '@/views/Connections.vue'
 </script>
 <template>
     <Hero/>
@@ -11,6 +12,7 @@ import Plan from '@/views/Plan.vue'
     <Excellence/>
     <Integration/>
     <Plan/>
+    <Connections/>
 
 </template>
 <style scoped></style>

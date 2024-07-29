@@ -122,6 +122,9 @@ module.exports = {
     limedSpruce: {
         900: '#33424B',
     },
+    blackPearl: {
+        950: '#031621',
+    },
     
     
     

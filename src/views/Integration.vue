@@ -1,7 +1,7 @@
 <script setup>
 </script>
 <template>
-    <div class="bg-black pt-20">
+    <div class="bg-blackPearl-950 pt-20">
         <div class="max-w-[1440px] mx-auto px-[52px]">
             <div class="flex flex-col items-center justify-center">
                 <p class="w-fit rounded-[50px] px-4 py-[3px] text-sm text-white bg-elephant-950 border border-limedSpruce-900 capitalize">connections</p>
