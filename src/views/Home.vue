@@ -5,6 +5,7 @@ import Excellence from '@/views/Excellence.vue'
 import Integration from '@/views/Integration.vue'
 import Plan from '@/views/Plan.vue'
 import Connections from '@/views/Connections.vue'
+import CustomerReviews from '@/views/CustomerReviews.vue'
 </script>
 <template>
     <Hero/>
@@ -13,6 +14,7 @@ import Connections from '@/views/Connections.vue'
     <Integration/>
     <Plan/>
     <Connections/>
+    <CustomerReviews/>
 
 </template>
 <style scoped></style>
