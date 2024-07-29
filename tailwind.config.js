@@ -116,6 +116,13 @@ module.exports = {
     mercury: {
         200: '#e5e5e5',
     },
+    elephant: {
+        950: '#1c2d37',
+    },
+    limedSpruce: {
+        900: '#33424B',
+    },
+    
     
     
     
