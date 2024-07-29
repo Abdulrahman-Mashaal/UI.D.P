@@ -112,4 +112,10 @@
   .after-obj {
     @apply relative inline-flex items-center after:w-5 after:h-5 after:inline-flex after:items-center after:justify-center after:leading-[0];
   }
+  ul{
+    &.spacer-y-4 > li:not(:last-child) {
+      @apply mb-4
+    }
+  }
+   
 }
