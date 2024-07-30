@@ -125,15 +125,9 @@ module.exports = {
     blackPearl: {
         950: '#031621',
     },
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    grayChateau: {
+        500: '#9aa2a6',
+    },
     
     },
   },

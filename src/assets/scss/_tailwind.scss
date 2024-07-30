@@ -54,7 +54,7 @@
 
   // footer link styles
   .footer-link {
-    @apply text-white text-sm capitalize font-Inter font-normal whitespace-nowrap;
+    @apply text-grayChateau-500 text-sm capitalize font-Inter font-normal whitespace-nowrap;
   }
 
   // button styles
@@ -117,5 +117,8 @@
       @apply mb-4
     }
   }
-   
+   .social-icon{
+    @apply flex items-center justify-center border border-elephant-950 w-[38px] h-[38px] rounded-full px-[9px] py-[11px]
+    
+   }
 }
