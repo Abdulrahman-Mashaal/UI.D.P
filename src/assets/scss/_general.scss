@@ -1,14 +1,34 @@
 // Global Fonts
+
+/* font size schema */
+// Regular -> 400
+// medium -> 500
+// semibold -> 600
+// bold -> 700
+
 @font-face {
-  font-family: Aeonik;
-  src: url(../fonts/Aeonik/Aeonik-Medium.ttf);
-  font-weight: 500;
+  font-family: Inter;
+  src: url(../fonts/Inter/inter-italic.ttf);
+  font-weight: 400;
 }
 
 @font-face {
-  font-family: Helvetica;
-  src: url(../fonts/HelvaticaNeue/helveticaneue-medium.ttf); // regular
+  font-family: Inter;
+  src: url(../fonts/Inter/inter-regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url(../fonts/Inter/inter-medium.ttf);
   font-weight: 500;
+}
+
+
+@font-face {
+  font-family: Hind;
+  src: url(../fonts/Inter/hind-regular.ttf);
+  font-weight: 400;
 }
 
 :root {
