@@ -5,7 +5,7 @@
         <div class="container ">
             <div class="max-w-[986px] mx-auto">
                 <div class="flex flex-col items-center justify-center">
-                    <p class="w-fit rounded-[100px] px-4 py-[3px] text-sm bg-white border border-mercury-200">Packages</p>
+                    <p class="w-fit rounded-[100px] px-4 py-[3px] text-sm bg-white border border-mercury-200 capitalize">Packages</p>
                     <h2 class="mt-1 capitalize">plan of pricing</h2>
                 </div>
                 <div class="mt-[22px] grid grid-cols-2 gap-[26px]">

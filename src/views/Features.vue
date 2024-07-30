@@ -4,7 +4,7 @@
     <section class="bg-wildSand-50 pt-[112px]">
         <div class="container">
             <div class="flex flex-col items-center justify-center">
-                <p class="w-fit rounded-[100px] px-4 py-[3px] text-sm bg-white border border-mercury-200">Features</p>
+                <p class="w-fit rounded-[100px] px-4 py-[3px] text-sm bg-white border border-mercury-200 capitalize">Features</p>
                 <h2 class="mt-1 capitalize">amazing features</h2>
             </div>
 
