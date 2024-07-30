@@ -36,51 +36,51 @@ module.exports = {
     },
     fontSize: {
       sm: [
-        ".875rem",
+        "1.25rem",
         {
-          lineHeight: "1.25",
+          lineHeight: "1.618", // golden line height ration
           fontWeight: "400",
         },
       ],
       base: [
-        "1.125rem",
+        "1.5rem",
         {
-          lineHeight: "1.25",
+          lineHeight: "1.618",
           fontWeight: "400",
         },
       ],
       lg: [
-        "1.25rem",
+        "1.75rem",
         {
-          lineHeight: "1.5",
+          lineHeight: "1.618",
           fontWeight: "500",
         },
       ],
       xl: [
-        "1.625rem",
+        "2rem",
         {
-          lineHeight: "1.26",
+          lineHeight: "1.618",
           fontWeight: "500",
         },
       ],
       "2xl": [
-        "2rem",
+        "2.625rem",
         {
-          lineHeight: "1.5",
+          lineHeight: "1.618",
           fontWeight: "600",
         },
       ],
       "3xl": [
-        "3.125rem",
+        "3.25rem",
         {
-          lineHeight: "1.1",
+          lineHeight: "1.618",
           fontWeight: "700",
         },
       ],
       "4xl": [
-        "3.75rem",
+        "3.875rem",
         {
-          lineHeight: "1.1",
+          lineHeight: "1.618",
           fontWeight: "700",
         },
       ],
