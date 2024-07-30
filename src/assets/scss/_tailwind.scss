@@ -24,21 +24,14 @@
 
 @layer base {
   body {
-    @apply font-helvetica text-base;
+    @apply font-Inter text-base;
   }
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    @apply font-aeonik font-medium;
-  }
+
   h1 {
     @apply text-4xl;
   }
   h2 {
-    @apply text-4xl;
+    @apply text-3xl;
   }
   h3 {
     @apply text-2xl;
@@ -56,17 +49,17 @@
 @layer components {
   // nav link styles
   .nav-link {
-    @apply text-[#222222] capitalize text-base font-normal whitespace-nowrap;
+    @apply text-black capitalize text-sm font-Inter font-normal whitespace-nowrap;
   }
 
   // footer link styles
   .footer-link {
-    @apply text-white-700 text-sm font-light whitespace-nowrap;
+    @apply text-grayChateau-500 text-sm capitalize font-Inter font-normal whitespace-nowrap;
   }
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-primary-900 decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-medium px-[21px] border border-transparent h-[46px] rounded-xl cursor-default font-aeonik;
+    @apply inline-flex gap-2 items-center justify-center text-center text-black decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[46px] rounded-[100px] cursor-default font-Inter text-sm leading-none;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -79,10 +72,10 @@
     }
     // size config
     &--sm {
-      @apply h-10 rounded-[32px];
+      @apply h-10;
     }
     &--lg {
-      @apply h-[66px] px-12 rounded-[32px];
+      @apply h-[56px];
     }
 
     // style config
@@ -93,13 +86,13 @@
       @apply bg-white-700 hover:bg-white-600 text-primary-700 font-medium;
     }
     &--text {
-      @apply text-black-700 hover:text-primary-900 px-0 py-0;
+      @apply text-black font-medium px-0 py-0;
     }
     &--outlined {
-      @apply text-black-700 font-medium border-[#C5C5D0];
+      @apply text-black font-semibold leading-none border-black;
     }
     &--outlined-white {
-      @apply text-white-700 font-medium border-white-700;
+      @apply text-white font-semibold leading-none border-white;
     }
   }
 }
@@ -119,4 +112,13 @@
   .after-obj {
     @apply relative inline-flex items-center after:w-5 after:h-5 after:inline-flex after:items-center after:justify-center after:leading-[0];
   }
+  ul{
+    &.spacer-y-4 > li:not(:last-child) {
+      @apply mb-4
+    }
+  }
+   .social-icon{
+    @apply flex items-center justify-center border border-elephant-950 w-[38px] h-[38px] rounded-full px-[9px] py-[11px]
+    
+   }
 }
