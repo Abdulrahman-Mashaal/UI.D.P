@@ -49,7 +49,7 @@
 @layer components {
   // nav link styles
   .nav-link {
-    @apply text-opal-300 capitalize text-sm font-Inter font-normal whitespace-nowrap;
+    @apply text-opal-300 capitalize text-sm font-Inter font-medium whitespace-nowrap;
   }
 
   // footer link styles
@@ -84,6 +84,9 @@
     }
     &--white {
       @apply bg-white-700 hover:bg-white-600 text-primary-700 font-medium;
+    }
+    &--opal {
+      @apply text-opal-300 border-opal-300 text-sm px-[19px] font-medium;
     }
     &--text {
       @apply text-black font-medium px-0 py-0;
