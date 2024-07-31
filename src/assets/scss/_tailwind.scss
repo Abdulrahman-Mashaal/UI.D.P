@@ -27,24 +27,25 @@
     @apply font-Inter text-base text-plantation-800;
   }
 
-  h1 {
-    @apply text-4xl;
+  h1, .h1 {
+    @apply text-4xl leading-[131.3%];
   }
-  h2 {
+  h2, .h2 {
     @apply text-3xl;
   }
-  h3 {
+  h3, .h3 {
     @apply text-2xl;
   }
-  h4 {
+  h4, .h4 {
     @apply text-xl;
   }
-  h5 {
+  h5, .h5 {
     @apply text-lg;
   }
-  h6 {
+  h6, .h6 {
     @apply text-base;
   }
+  
 }
 @layer components {
   // nav link styles
@@ -83,10 +84,10 @@
       @apply bg-black-700 text-white-700 px-5;
     }
     &--white {
-      @apply bg-white-700 hover:bg-white-600 text-primary-700 font-medium;
+      @apply bg-white text-plantation-800 font-normal px-6;
     }
     &--opal {
-      @apply text-opal-300 border-opal-300 text-sm px-[19px] font-medium;
+      @apply text-opal-300 border-opal-300 text-base px-[19px] font-medium;
     }
     &--text {
       @apply text-black font-medium px-0 py-0;
@@ -100,6 +101,26 @@
   }
 }
 @layer utilities {
+  .text-4xl,
+.text-3xl {
+  @apply max-xl:text-2xl max-xl:font-bold;
+}
+
+.text-2xl {
+  @apply max-xl:text-xl max-xl:font-bold;
+}
+
+.text-xl {
+  @apply max-xl:text-lg;
+}
+
+.text-lg {
+  @apply max-xl:text-base;
+}
+
+.text-base {
+  @apply max-xl:text-sm;
+}
   .transition-base {
     @apply transition-all duration-300 ease-in-out;
   }

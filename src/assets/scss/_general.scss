@@ -86,23 +86,4 @@ body {
     padding-left: 1px;
   }
 }
-.text-4xl,
-.text-3xl {
-  @apply max-md:text-2xl max-md:font-bold;
-}
 
-.text-2xl {
-  @apply max-md:text-xl max-md:font-bold;
-}
-
-.text-xl {
-  @apply max-md:text-lg;
-}
-
-.text-lg {
-  @apply max-md:text-base;
-}
-
-.text-base {
-  @apply max-md:text-sm;
-}
