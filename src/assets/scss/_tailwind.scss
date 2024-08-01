@@ -26,26 +26,28 @@
   body {
     @apply font-Inter text-base text-plantation-800;
   }
-
-  h1, .h1 {
-    @apply text-4xl leading-[131.3%];
+  h1 {
+    // @apply text-4xl leading-[131.3%];
+    @apply text-base xl:text-xl 2xl:text-2xl 3xl:text-4xl font-bold;
   }
-  h2, .h2 {
-    @apply text-3xl;
+  h2 {
+    // @apply text-3xl;
+    @apply text-base xl:text-xl 2xl:text-2xl 3xl:text-3xl font-bold;
   }
-  h3, .h3 {
-    @apply text-2xl;
+  h3 {
+    // @apply text-2xl;
+    @apply text-base xl:text-lg 2xl:text-xl 3xl:text-2xl font-semibold;
   }
-  h4, .h4 {
-    @apply text-xl;
+  h4 {
+    // @apply text-xl;
+    @apply text-base 2xl:text-lg 3xl:text-xl font-bold;
   }
-  h5, .h5 {
-    @apply text-lg;
+  h5 {
+    // @apply text-lg;
   }
-  h6, .h6 {
-    @apply text-base;
+  h6 {
+    // @apply text-base;
   }
-  
 }
 @layer components {
   // nav link styles
@@ -60,7 +62,7 @@
 
   // button styles
   .btn {
-    @apply inline-flex gap-2 items-center justify-center text-center text-white decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[69px] rounded-[52px] cursor-default font-Inter text-sm leading-none;
+    @apply inline-flex gap-2 items-center justify-center text-center text-white decoration-0 select-none bg-transparent transition-all duration-300 ease-in-out capitalize font-semibold px-6 border border-transparent h-[50px] lg:h-[69px] rounded-[52px] cursor-default font-Inter text-xs lg:text-sm leading-none;
     &:not([disabled]) {
       @apply cursor-pointer;
     }
@@ -101,26 +103,26 @@
   }
 }
 @layer utilities {
-  .text-4xl,
-.text-3xl {
-  @apply max-xl:text-2xl max-xl:font-bold;
-}
+//   .text-4xl,
+// .text-3xl {
+//   @apply max-lg:text-xl max-lg:text-2xl max-xl:font-bold;
+// }
 
-.text-2xl {
-  @apply max-xl:text-xl max-xl:font-bold;
-}
+// .text-2xl {
+//   @apply max-lg:text-xl max-xl:font-bold;
+// }
 
-.text-xl {
-  @apply max-xl:text-lg;
-}
+// .text-xl {
+//   @apply max-lg:text-lg;
+// }
 
-.text-lg {
-  @apply max-xl:text-base;
-}
+// .text-lg {
+//   @apply max-lg:text-base;
+// }
 
-.text-base {
-  @apply max-xl:text-sm;
-}
+// .text-base {
+//   @apply max-lg:text-sm;
+// }
   .transition-base {
     @apply transition-all duration-300 ease-in-out;
   }

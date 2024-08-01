@@ -28,13 +28,21 @@ module.exports = {
       md: "768px",
       lg: "992px",
       xl: "1200px",
-      "2xl": "1400px",
+    '2xl': "1400px",
+    '3xl': "1536px",
     },
     fontFamily: {
       Inter: "Inter, sans-serif",
       Hind: "Hind, sans-serif",
     },
     fontSize: {
+      xs: [
+        "1rem",
+        {
+          lineHeight: "1.618", // golden line height ration
+          fontWeight: "400",
+        },
+      ],
       sm: [
         "1.25rem",
         {
