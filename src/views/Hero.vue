@@ -9,7 +9,9 @@
                  <p class="mt-[22px] text-xs xl:text-lg text-zircon-50">No Cold Calling, Prospecting or Cold Emailing.</p>
                  <div class="mt-12 lg:mt-[92px]">
                     <p class="text-zircon-50 text-xs lg:text-base text-center lg:text-left"><span class="text-mountainMeadow-500">100%</span> Satisfaction Guaranteed</p>
-                    <button class="btn btn--white w-full lg:w-fit mt-5 after-obj gap-1 after:content-[url('@images/icons/right-plantation-arrow.svg')]">scheduled a call</button>
+                    <div class=" flex items-center justify-center lg:justify-start">
+                        <button class="btn btn--white w-fit mt-5 after-obj gap-1 after:content-[url('@images/icons/right-plantation-arrow.svg')]">scheduled a call</button>
+                    </div>
                  </div>
                 </div>
                 <div class="order-1 lg:order-2 lg:w-7/12">
