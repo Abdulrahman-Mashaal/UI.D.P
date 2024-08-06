@@ -136,6 +136,12 @@ module.exports = {
     zircon: {
         50: '#f0f3ff',
     },
+    gulfBlue: {
+        950: '#161d5c',
+    },
+    periwinkle: {
+        200: '#c4ceff',
+    },
     
     
     },

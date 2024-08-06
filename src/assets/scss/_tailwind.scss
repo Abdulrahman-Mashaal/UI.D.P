@@ -34,15 +34,15 @@
     // @apply text-3xl;
     @apply text-sm  md:text-base lg:text-xl 2xl:text-2xl 3xl:text-3xl font-bold;
   }
-  h3 {
+  h3, .h3 {
     // @apply text-2xl;
     @apply text-base xl:text-lg 2xl:text-xl 3xl:text-2xl font-semibold;
   }
-  h4 {
+  h4, .h4 {
     // @apply text-xl;
     @apply text-base 2xl:text-lg 3xl:text-xl font-bold;
   }
-  h5 {
+  h5, .h5 {
     // @apply text-lg;
   }
   h6 {
