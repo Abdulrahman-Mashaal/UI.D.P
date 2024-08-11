@@ -27,7 +27,7 @@
             </ul>
           </nav>
           <div class="hidden lg:block">
-            <button class="btn btn--sm btn--opal whitespace-nowrap after-obj gap-1 after:content-[url('@images/icons/right-arrow.svg')]">free trial</button>
+            <button class="btn btn--sm btn--opal text-sm font-medium whitespace-nowrap after-obj gap-1 after:content-[url('@images/icons/right-arrow.svg')]">free trial</button>
           </div>
         </div>
         </div>

@@ -142,10 +142,7 @@ module.exports = {
     periwinkle: {
         200: '#c4ceff',
     },
-    
-    
     },
   },
-
   plugins: plugins,
 };
