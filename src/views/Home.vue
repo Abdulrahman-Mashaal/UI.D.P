@@ -5,6 +5,7 @@
   import Community from '@/views/Community.vue'
   import Insight from '@/views/Insight.vue'
   import Join from '@/views/Join.vue'
+  import Data from '@/views/Data.vue'
 </script>
 <template>
   <div>
@@ -14,6 +15,7 @@
     <Community/>
     <Insight/>
     <Join/>
+    <Data/>
   </div>
 </template>
 <style scoped></style>

@@ -53,7 +53,6 @@ import usersSVG from '@images/icons/users.svg?component'
                         <p class="line-clamp-2 text-center text[#617975] text-sm font-normal">Figure out how to use YouTube to attract people who might be interested ...</p>
                     </div>
                 </div>
-               
             </div>
         </div>
     </section>
