@@ -3,6 +3,7 @@
   import Features from '@/views/Features.vue'
   import Appointments from '@/views/Appointments.vue'
   import Community from '@/views/Community.vue'
+  import Insight from '@/views/Insight.vue'
 </script>
 <template>
   <div>
@@ -10,6 +11,7 @@
     <Features/>
     <Appointments/>
     <Community/>
+    <Insight/>
   </div>
 </template>
 <style scoped></style>
