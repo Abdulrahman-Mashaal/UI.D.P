@@ -6,6 +6,7 @@
   import Insight from '@/views/Insight.vue'
   import Join from '@/views/Join.vue'
   import Data from '@/views/Data.vue'
+  import Guarantee from '@/views/Guarantee.vue'
 </script>
 <template>
   <div>
@@ -16,6 +17,7 @@
     <Insight/>
     <Join/>
     <Data/>
+    <Guarantee/>
   </div>
 </template>
 <style scoped></style>
