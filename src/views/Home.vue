@@ -4,6 +4,7 @@
   import Appointments from '@/views/Appointments.vue'
   import Community from '@/views/Community.vue'
   import Insight from '@/views/Insight.vue'
+  import Join from '@/views/Join.vue'
 </script>
 <template>
   <div>
@@ -12,6 +13,7 @@
     <Appointments/>
     <Community/>
     <Insight/>
+    <Join/>
   </div>
 </template>
 <style scoped></style>

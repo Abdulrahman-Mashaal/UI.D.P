@@ -15,7 +15,7 @@ import greenCheckedSVG from '@images/icons/green-checked.svg'
                     <li class="inline-flex md:items-center gap-5 ">
                         <span class="w-[24px] h-[24px] rounded-full bg-white">
                             <greenCheckedSVG/>
-                            
+
                         </span>
                         <p class="text-plantation-800 text-xs font-normal xl:text-base "><span class="font-medium">Expert Advice:</span> Find Clients, Boost Your Visibility, Grow Your Audience</p>
                     </li>
@@ -27,8 +27,8 @@ import greenCheckedSVG from '@images/icons/green-checked.svg'
                     </li>
                    
                  </ul>
-                 <div class="mt-12 lg:mt-[92px] flex items-center justify-center lg:justify-start">
-                    <button class="btn btn--white text-base text-plantation-800 border-[#C5D4CC] bg-[#F0FDF6] w-fit mt-5 after-obj gap-1 after:content-[url('@images/icons/right-plantation-arrow.svg')]">scheduled a call</button>
+                 <div class="mt-[50px] lg:mt-[92px] flex items-center justify-center lg:justify-start">
+                    <button class="btn btn--white text-base text-plantation-800 border-[#C5D4CC] bg-[#F0FDF6] w-fit after-obj gap-1 after:content-[url('@images/icons/right-plantation-arrow.svg')]">scheduled a call</button>
                  </div>
                 </div>
                 
