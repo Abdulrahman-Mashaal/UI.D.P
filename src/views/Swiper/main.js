@@ -3,20 +3,33 @@ import Swiper from 'swiper/bundle';
 // import styles bundle
 import 'swiper/css/bundle';
 
-const heroSlider = new Swiper('.heroSlider', {
-  grabCursor: true,
-  speed: 500,
-  effect: 'slide',
-  loop: true,
-  mousewheel: {
-    invert: false,
-    sensitivity: 1,
-  },
-  on: {
-    init: function () {},
-    slideChange: function () {},
-    click: function () {
-      // console.log(this);
+const anmaSlider = new Swiper('.anma-top-specialties', {
+    slidesPerView: 1,
+    spaceBetween: 20,
+    navigation: {
+        nextEl: ".anma-top-specialties__swiper-button-next",
+        prevEl: ".anma-top-specialties__swiper-button-prev",
+      },
+    // loop: true,
+    breakpoints:{
+        470: {
+            slidesPerView: 2,
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 32,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+
     },
-  },
+    pagination: {
+        el: ".anma-top-specialties__swiper-pagination",
+        clickable: true,
+    },
+    // autoplay: {
+    //     delay: 2000
+    // },
+
 });

@@ -113,3 +113,11 @@ $breakpoints: (
   }
 }
 // responsive mixin
+
+@mixin bg-image-loop($imageURL, $imageExt, $length) {
+  @for $i from 1 through $length {
+    &:nth-of-type(#{$i}) {
+      background-image: url($imageURL + '/' + $i + '.' + $imageExt);
+    }
+  }
+}

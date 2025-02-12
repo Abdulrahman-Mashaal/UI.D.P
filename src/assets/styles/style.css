@@ -188,4 +188,155 @@ html {
   @apply max-md:text-sm;
 }
 
+#swiper-page #anma-top-specialties-slider {
+  padding: 70px 0;
+  user-select: none;
+}
+#swiper-page #anma-top-specialties-slider .container {
+  background: rgba(0, 0, 0, 0.062745098);
+}
+#swiper-page #anma-top-specialties-slider .container h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 700;
+  margin-bottom: 3.25rem;
+  text-align: center;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 6.75rem;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  max-width: 1130px;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide {
+  padding: 0 20px;
+  height: 381px;
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(1) {
+  background-image: url("../images/swiper/anma/TopSpecialties/1.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(2) {
+  background-image: url("../images/swiper/anma/TopSpecialties/2.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(3) {
+  background-image: url("../images/swiper/anma/TopSpecialties/3.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(4) {
+  background-image: url("../images/swiper/anma/TopSpecialties/4.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(5) {
+  background-image: url("../images/swiper/anma/TopSpecialties/5.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(6) {
+  background-image: url("../images/swiper/anma/TopSpecialties/6.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(7) {
+  background-image: url("../images/swiper/anma/TopSpecialties/7.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(8) {
+  background-image: url("../images/swiper/anma/TopSpecialties/8.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(9) {
+  background-image: url("../images/swiper/anma/TopSpecialties/9.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(10) {
+  background-image: url("../images/swiper/anma/TopSpecialties/10.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(11) {
+  background-image: url("../images/swiper/anma/TopSpecialties/11.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(12) {
+  background-image: url("../images/swiper/anma/TopSpecialties/12.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(13) {
+  background-image: url("../images/swiper/anma/TopSpecialties/13.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:nth-of-type(14) {
+  background-image: url("../images/swiper/anma/TopSpecialties/14.jpg");
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide p {
+  font-size: 1.875rem;
+  line-height: 1.5;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5019607843), rgba(0, 0, 0, 0.5019607843));
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  outline: 13px solid #D2D9DF;
+  outline-offset: -10px;
+  z-index: 1;
+  transition: all 0.3s ease-in-out;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:hover {
+  cursor: pointer;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:hover::after {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.2509803922), rgba(0, 0, 0, 0.2509803922));
+  opacity: 0;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-wrapper .swiper-slide:hover::before {
+  outline-offset: 0px;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-actions {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-actions button {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-actions button svg path {
+  transition: all 0.3s ease-in-out;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-actions button:hover {
+  border-color: #FF7147;
+}
+#swiper-page #anma-top-specialties-slider .container .swiper .swiper-actions button:hover svg path {
+  transition: 0.3s;
+  fill: #FF7147;
+}
+
 /*# sourceMappingURL=style.css.map */
