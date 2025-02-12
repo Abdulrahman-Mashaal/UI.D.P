@@ -28,8 +28,8 @@ const anmaSlider = new Swiper('.anma-top-specialties', {
         el: ".anma-top-specialties__swiper-pagination",
         clickable: true,
     },
-    // autoplay: {
-    //     delay: 2000
-    // },
+    autoplay: {
+        delay: 2000
+    },
 
 });
