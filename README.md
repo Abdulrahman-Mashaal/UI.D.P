@@ -7,3 +7,5 @@
 line-height/font-size
 ## aspect-ratio for image
 width/height
+
+[tailwind ui color generation](https://uicolors.app/create)

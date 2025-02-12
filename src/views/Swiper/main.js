@@ -33,3 +33,34 @@ const anmaSlider = new Swiper('.anma-top-specialties', {
     },
 
 });
+const futurefaceNewsSlider = new Swiper('.futureface-news', {
+    slidesPerView: 1,
+    spaceBetween: 32,
+    navigation: {
+        nextEl: ".futureface-news__swiper-button-next",
+        prevEl: ".futureface-news__swiper-button-prev",
+      },
+    loop: true,
+    breakpoints:{
+        470: {
+            // FIXME: not working
+            slidesPerView: 'auto',
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 32,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+
+    },
+    pagination: {
+        el: ".futureface-news__swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 2000
+    },
+
+});
