@@ -3,7 +3,7 @@ import Swiper from 'swiper/bundle';
 // import styles bundle
 import 'swiper/css/bundle';
 
-const anmaSlider = new Swiper('.anma-top-specialties', {
+const anmaTopSpecialtiesSlider = new Swiper('.anma-top-specialties', {
     slidesPerView: 1,
     spaceBetween: 20,
     navigation: {
@@ -26,6 +26,44 @@ const anmaSlider = new Swiper('.anma-top-specialties', {
     },
     pagination: {
         el: ".anma-top-specialties__swiper-pagination",
+        clickable: true,
+    },
+    autoplay: {
+        delay: 2000
+    },
+
+});
+const anmaServicesSlider = new Swiper('.anma-services', {
+    slidesPerView: 1,
+    spaceBetween: 32,
+    navigation: {
+        nextEl: ".anma-services__swiper-button-next",
+        prevEl: ".anma-services__swiper-button-prev",
+      },
+    // loop: true,
+    breakpoints:{
+        1200: {
+            slidesPerView: 4,
+        },
+        1024: {
+            slidesPerView: 3,
+        },
+        992: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 2,
+        },
+        576: {
+            slidesPerView: 1,
+        },
+        430: {
+            slidesPerView: 1,
+        }
+
+    },
+    pagination: {
+        el: ".anma-services__swiper-pagination",
         clickable: true,
     },
     autoplay: {
