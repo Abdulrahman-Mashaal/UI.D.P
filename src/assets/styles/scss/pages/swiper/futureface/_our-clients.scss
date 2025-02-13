@@ -9,6 +9,7 @@
                 height: auto;
                 .swiper-slide {
                     width: auto;
+                    // FIXME: images styles is not appear correctly  
                     img{
                         object-fit: contain;
                         width: 100%;

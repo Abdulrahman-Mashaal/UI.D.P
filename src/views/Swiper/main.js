@@ -71,6 +71,7 @@ const futurefaceNewsSlider = new Swiper('.futureface-news', {
     },
 
 });
+// FIXME: speed is not working like I expected
 const futurefaceOurClientsSlider = new Swiper('.futureface-our-clients', {
     loop: true,
     slidesPerView: "auto",
