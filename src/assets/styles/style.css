@@ -443,4 +443,51 @@ html {
   height: 7rem;
 }
 
+#robox-usage-slider {
+  padding-bottom: 30px;
+  user-select: none;
+}
+#robox-usage-slider .container .usage-tabs {
+  position: relative;
+  overflow: hidden !important;
+  width: 100%;
+}
+#robox-usage-slider .container .usage-tabs .swiper-slide {
+  width: auto !important;
+}
+#robox-usage-slider .container .usage-tabs .swiper-slide a {
+  display: block;
+  text-align: center;
+}
+#robox-usage-slider .container .usage-tabs .swiper-slide .text {
+  padding: 1rem;
+  border-radius: 50px;
+  background-color: #fff;
+  position: relative;
+  display: inline-block;
+  transition: 0.25s;
+}
+#robox-usage-slider .container .usage-tabs .swiper-slide .text:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background: var(--color1);
+  transform: translateX(-50%);
+  transition: 0.25s;
+}
+#robox-usage-slider .container .usage-tabs .swiper-slide.on .text {
+  color: var(--color1);
+  background-color: rgba(170, 242, 250, 0.1019607843);
+}
+#robox-usage-slider .container .usage-tabs .swiper-slide.on .text:after {
+  width: 100%;
+}
+#robox-usage-slider .container .usage-content {
+  overflow: hidden !important;
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
