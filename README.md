@@ -1,11 +1,21 @@
-# Figma design
+## Quick Start
 
-[Figma design URL](https://www.figma.com).
+Install dev dependencies
 
-# Calculations
-## line-height
-line-height/font-size
-## aspect-ratio for image
-width/height
+```sh
+npm install
+```
+
+Start development server with live preview
+
+```sh
+npm run dev
+```
+
+Generate build files for production server
+
+## Resources
+
+### tailwind ui color generation
 
 [tailwind ui color generation](https://uicolors.app/create)
