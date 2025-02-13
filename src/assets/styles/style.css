@@ -342,16 +342,11 @@ html {
   user-select: none;
 }
 #futureface-news-slider .container .swiper {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  width: 100%;
-  overflow: hidden;
-  max-width: 1130px;
+  width: 80%;
 }
 #futureface-news-slider .container .swiper .swiper-wrapper .swiper-slide {
-  min-height: 384px;
-  position: relative;
+  width: 240px; /* Default width */
+  transition: width 0.3s ease; /* Smooth transition */
 }
 #futureface-news-slider .container .swiper .swiper-actions {
   display: flex;

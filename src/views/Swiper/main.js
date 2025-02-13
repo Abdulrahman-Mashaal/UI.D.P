@@ -34,25 +34,32 @@ const anmaSlider = new Swiper('.anma-top-specialties', {
 
 });
 const futurefaceNewsSlider = new Swiper('.futureface-news', {
-    slidesPerView: 1,
+    slidesPerView: 'auto',
     spaceBetween: 32,
     navigation: {
         nextEl: ".futureface-news__swiper-button-next",
         prevEl: ".futureface-news__swiper-button-prev",
-      },
+    },
     loop: true,
     breakpoints:{
-        470: {
-            // FIXME: not working
-            slidesPerView: 'auto',
-        },
-        992: {
-            slidesPerView: 3,
+        1200: {
+            slidesPerView: 3.5,
             spaceBetween: 32,
         },
-        1200: {
-            slidesPerView: 4,
+        992: {
+            slidesPerView: 3.5,
+            spaceBetween: 30
         },
+        768: {
+            slidesPerView: 2,
+            spaceBetween: 10
+        },
+        576: {
+            slidesPerView: 1.2,
+        },
+        430: {
+            slidesPerView: 1.2,
+        }
 
     },
     pagination: {
@@ -60,7 +67,7 @@ const futurefaceNewsSlider = new Swiper('.futureface-news', {
         clickable: true,
     },
     autoplay: {
-        delay: 2000
+        delay: 2500
     },
 
 });
