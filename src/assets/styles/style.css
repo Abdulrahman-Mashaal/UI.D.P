@@ -212,6 +212,11 @@ html {
   gap: 3rem;
   margin-top: 3rem;
 }
+@media (min-width: 1200px) {
+  #anma-services-slider .container .swiper .swiper-actions {
+    display: none;
+  }
+}
 #anma-services-slider .container .swiper .swiper-actions button {
   width: 50px;
   height: 50px;

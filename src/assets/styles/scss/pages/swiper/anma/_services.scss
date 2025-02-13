@@ -12,6 +12,9 @@
                 }
             }
             .swiper-actions{
+                @include respond-above(xl){
+                 display: none;   
+                }
                 display: flex;
                 width: 100%;
                 justify-content: center;
